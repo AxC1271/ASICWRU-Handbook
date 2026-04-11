@@ -1,21 +1,12 @@
 # Chapter 1: Digital Logic
 
-This chapter builds the foundation everything else in this handbook depends on.
-Before you write a single line of Verilog, before you think about pipelines or
-tapeout flows, you need to understand how logic is physically realized in silicon.
+This chapter builds the foundation everything else in this handbook depends on. Before you write a single line of Verilog, before you think about pipelines or tapeout flows, you need to understand how logic is physically realized in silicon.
 That's what this chapter is about.
 
-We start at the transistor level — not because you need to become a device
-physicist, but because understanding *why* CMOS works the way it does makes
-everything downstream less mysterious. From there we build upward: primitive
-gates, Boolean minimization, complex gates, combinational building blocks, and
-finally sequential logic and finite state machines.
+We start at the transistor level — not because you need to become a device physicist, but because understanding *why* CMOS works the way it does makes everything downstream less mysterious. From there we build upward: primitive gates, Boolean minimization, complex gates, combinational building blocks, and finally sequential logic and finite state machines.
 
-By the end of this chapter you should be able to look at any combinational
-circuit and derive its transistor-level implementation from scratch, read and
-write basic FSMs, and understand the timing constraints that govern sequential
-logic. All of that will matter when you get to Chapter 2 (writing RTL) and
-Chapter 4 (building a processor).
+By the end of this chapter you should be able to look at any combinational circuit and derive its transistor-level implementation from scratch, read and write basic FSMs, and understand the timing constraints that govern sequential
+logic. All of that will matter when you get to Chapter 2 (writing RTL) and Chapter 4 (building a processor).
 
 ## What's covered
 
