@@ -37,7 +37,7 @@ Fork the repo. Work through the exercises. If something's wrong or unclear, open
 - **Patterson & Hennessy** — *Computer Organization and Design: RISC-V Edition*. The standard architecture reference. Chapters 1–4 map closely to Ch. 4 of this handbook.
 - **Weste & Harris** — *CMOS VLSI Design*. The reference for the transistor-level treatment in Ch. 1.
 - **Sutherland, Davidmann & Flake** — *SystemVerilog for Design*. Practical reference for the SV constructs in Ch. 2.
-- **RISC-V International** — [The RISC-V ISA Manual](https://riscv.org/technical/specifications/). The official spec. Ch. 2 covers RV32I.
+- **RISC-V International** — [The RISC-V ISA Manual](https://riscv.org/technical/specifications/). The official spec. Ch. 4 covers RV32I.
 - **Tiny Tapeout Docs** — [tinytapeout.com](https://tinytapeout.com). Submission flow, `info.yaml`, CI pipeline.
 - **cocotb Docs** — [docs.cocotb.org](https://docs.cocotb.org). The reference for Ch. 3.
 - **HDLBits** — [hdlbits.01xz.net](https://hdlbits.01xz.net). 200+ browser-based Verilog exercises. Essential companion to Chs. 2–3.
