@@ -1,31 +1,19 @@
 # 1.1 — The MOS Switch
 
-Every logic gate in your computer, your phone, and every chip you will ever
-design is built from one primitive: the MOS transistor. Before we talk about
-gates or circuits, we need to understand this device — not at the physics
-level, but at the behavioral level. What does it do, and why does it matter?
+Every logic gate in your computer, your phone, and every chip you will ever design is built from one primitive: the MOS transistor. Before we talk about gates or circuits, we need to understand this device — not at the physics level, but at the behavioral level. What does it do, and why does it matter?
 
 A MOS transistor is a voltage-controlled switch. There are two types:
 
 - **NMOS**: the switch closes (conducts) when the gate voltage is high
 - **PMOS**: the switch closes (conducts) when the gate voltage is low
 
-That's the mental model. You don't need to know about carrier mobility,
-threshold voltage, or saturation regions to build logic circuits. What you
-need to internalize is this: NMOS pulls toward GND, PMOS pulls toward VDD,
-and the gate voltage controls which one is doing the pulling.
 
-This asymmetry — one type pulls high, the other pulls low — is exactly what
-makes CMOS work. CMOS stands for Complementary MOS, and the "complementary"
-is the key word. Every gate pairs NMOS and PMOS in a way that ensures the
-output is always driven to a valid logic level, never floating, and never
-drawing DC current in steady state.
 
 ## Concepts
 
 - NMOS and PMOS as voltage-controlled switches
 - Gate, drain, and source terminals
-- Pull-up (toward VDD) vs pull-down (toward GND) behavior
+- Pull-up (toward Vdd) vs pull-down (toward Gnd) behavior
 - Why complementary pairs eliminate static power dissipation
 
 ## Exercises
