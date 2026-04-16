@@ -1,1 +1,2 @@
-# 02 - Verilog/SystemVerilog
+# 2.01 - Hardware Description Languages (HDLs)
+

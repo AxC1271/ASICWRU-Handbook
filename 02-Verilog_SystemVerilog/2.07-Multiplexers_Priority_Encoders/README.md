@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 02 - Multiplexers + Priority Encoders

@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 2.02 - Modules and Ports

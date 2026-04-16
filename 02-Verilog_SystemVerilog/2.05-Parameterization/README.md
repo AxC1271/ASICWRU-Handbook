@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 2.05 - Parameterization & Generate Statements

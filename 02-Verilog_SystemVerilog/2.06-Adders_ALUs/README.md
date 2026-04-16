@@ -1,1 +1,2 @@
-# 02 - Verilog/SystemVerilog
+# 2.06 - Adders/ALUs
+

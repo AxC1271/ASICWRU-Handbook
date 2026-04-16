@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 02 - Shift Registers + Counters
