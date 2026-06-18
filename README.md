@@ -2,9 +2,7 @@
 
 Welcome to the ASICWRU Handbook — a free, openly written reference for anyone who wants to go from zero to tapeout. This repo covers everything from logic gates at the transistor level to running a full RTL-to-GDS flow and submitting a design to silicon.
 
-A little about me: I'm a computer engineering student at Case Western Reserve University (as of April 2026). I've taped out chips as an undergrad, debugged my way through every layer of the stack from RTL to GDS, and learned most of what's in this handbook the hard way — through trial, error, and a lot of waveform tracing.
-
-Hardware design has a reputation for being inaccessible. Expensive textbooks, paywalled courses, knowledge locked inside companies. That reputation isn't entirely wrong — but it doesn't have to stay that way. Everything here is something I wish had been written down clearly when I was learning it. If you're a CWRU student, a CWRU CHIPS club member, or just someone on the internet curious about how chips actually work — this is for you.
+If you're a CWRU student, a CWRU CHIPS club member, or just someone on the internet curious about how chips actually work — this is for you. If you've taken the relevant courses for some of the topics such as ECSE 281, ECSE 314, ECSE 315, and etc., feel free to use this handbook as a refresher or jump to a topic you need more clarity on!
 
 ---
 
@@ -31,6 +29,15 @@ Each chapter lives in its own folder with markdown articles and exercises. Work 
 Fork the repo. Work through the exercises. If something's wrong or unclear, open an issue.
 
 ---
+
+## Main contributors
+
+**Andrew Chen** B.S.E in CompE @ CWRU, M.S in ECE @ CMU
+
+I'm a computer engineering student at Case Western Reserve University (as of April 2026). I've taped out chips as an undergrad, debugged my way through every layer of the stack from RTL to GDS, and learned most of what's in this handbook the hard way — through trial, error, and a lot of waveform tracing.
+Hardware design has a reputation for being inaccessible. Expensive textbooks, paywalled courses, knowledge locked inside companies. That reputation isn't entirely wrong — but it doesn't have to stay that way. Everything here is something I wish had been written down clearly when I was learning it.
+
+**John Paul Magbitang** B.S.E in ECE @ CWRU
 
 ## References
 
