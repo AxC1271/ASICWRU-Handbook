@@ -7,7 +7,7 @@ In short, HDLs are used for the design, simulation, and verification of electron
 We will also be referencing HDLBits to guide us for some of the examples and exercises that you will be coming across in this chapter. 
 [bits.01xz.net/wiki/Main_Page](bits.01xz.net/wiki/Main_Page)
 
-# Hardware Description Languages vs Programming Languages: what's the difference?
+# Hardware Description Languages vs Programming Languages
 
 While Verilog has similar syntax with the programming language C, they behave differently and for different purposes. Programming languages such as C, Python, and Java execute their lines of code **sequentially** whereas all the lines of code in a HDL execute in **parallel**. 
 
