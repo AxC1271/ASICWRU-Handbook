@@ -10,8 +10,6 @@ Hardware design has a reputation for being inaccessible. Expensive textbooks, pa
 
 ---
 
----
-
 ## What's covered
 
 | Chapter | Topic |
