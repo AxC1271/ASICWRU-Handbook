@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 3.03 - SystemVerilog Assertions (SVAs)

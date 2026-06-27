@@ -2,9 +2,13 @@
 
 Welcome to the ASICWRU Handbook — a free, openly written reference for anyone who wants to go from zero to tapeout. This repo covers everything from logic gates at the transistor level to running a full RTL-to-GDS flow and submitting a design to silicon.
 
-A little about me: I'm a computer engineering student at Case Western Reserve University (as of April 2026). I've taped out chips as an undergrad, debugged my way through every layer of the stack from RTL to GDS, and learned most of what's in this handbook the hard way — through trial, error, and a lot of waveform tracing.
-
 Hardware design has a reputation for being inaccessible. Expensive textbooks, paywalled courses, knowledge locked inside companies. That reputation isn't entirely wrong — but it doesn't have to stay that way. Everything here is something I wish had been written down clearly when I was learning it. If you're a CWRU student, a CWRU CHIPS club member, or just someone on the internet curious about how chips actually work — this is for you.
+
+---
+
+> **A note on how this was made:** This repository was developed with the assistance of AI language models for drafting and structuring content. Every technical claim, explanation, and code example has been reviewed and verified by students with experience in ASIC and RTL design. If you find an error, please open an issue — accuracy matters more than pride of authorship.
+
+---
 
 ---
 
@@ -14,7 +18,7 @@ Hardware design has a reputation for being inaccessible. Expensive textbooks, pa
 |---------|-------|
 | 01 | Digital Logic — gates, static CMOS, Boolean algebra, FSMs |
 | 02 | Verilog / SystemVerilog — HDL fundamentals through UART controllers |
-| 03 | Verification with cocotb — testbenches, SVAs, Python-driven simulation |
+| 03 | Design Verification — testbenches, SVAs, Python-driven simulation |
 | 04 | Computer Architecture — RISC-V ISA, single-cycle and pipelined processors |
 | 05 | RTL-to-GDS Flow — Yosys, OpenROAD, Tiny Tapeout CI |
 | 06 | Timing & Power Constraints — STA, slack, setup/hold, SDC/XDC |
