@@ -1,1 +1,1 @@
-# 02 - Verilog/SystemVerilog
+# 2.10 - UART Controller Capstone Project
