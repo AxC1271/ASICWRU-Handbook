@@ -36,10 +36,7 @@ Fork the repo. Work through the exercises. If something's wrong or unclear, open
 
 ## Main contributors
 
-**Andrew Chen** | B.S.E in CompE @ CWRU, M.S in ECE @ CMU
-
-I'm a computer engineering student at Case Western Reserve University (as of April 2026). I've taped out chips as an undergrad, debugged my way through every layer of the stack from RTL to GDS, and learned most of what's in this handbook the hard way — through trial, error, and a lot of waveform tracing.
-Hardware design has a reputation for being inaccessible. Expensive textbooks, paywalled courses, knowledge locked inside companies. That reputation isn't entirely wrong — but it doesn't have to stay that way. Everything here is something I wish had been written down clearly when I was learning it.
+**Andrew Chen** | M.S in ECE @ CMU, B.S.E in CompE @ CWRU
 
 **John Paul Magbitang** | B.S.E in ECE @ CWRU
 
