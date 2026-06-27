@@ -77,17 +77,22 @@ Closing the coverage gap — knowing not just that your tests pass, but that you
 
 ## The Verification Landscape
 
-Chapter 3 builds a verification skillset progressively, using your UART controller as the design under test throughout.
+Chapter 3 builds a verification skillset progressively, using your UART controller as the design under test throughout. Each chapter is a response to a real limitation of the one before it — by the time you reach the capstone, every tool you're using will have a clear reason for existing.
 
-We start with **Verilog testbenches** (3.02) — the baseline approach of writing directed stimulus in SystemVerilog. You'll learn proper testbench structure, clock generation, and how to drive and check your UART interface systematically.
+| Chapter | Topic | What You'll Learn |
+|---------|-------|-------------------|
+| [3.01 – Why Verification?](./3.01-Why_Verification/README.md) | Motivation & mental model | Why simulation alone isn't enough, the coverage problem, and how the industry thinks about correctness |
+| [3.02 – Verilog Testbenches](./3.02-Verilog_Testbenches/README.md) | Directed testing in SystemVerilog | Testbench structure, clock generation, and driving/checking a DUT — starting with a full adder, scaling to UART |
+| [3.03 – SystemVerilog Assertions](./3.03-SVAs/README.md) | Embedded correctness properties | Writing immediate and concurrent assertions so the simulator automatically checks protocol behavior on every cycle |
+| [3.04 – Introduction to cocotb](./3.04-Intro_Cocotb/README.md) | Python-driven simulation | Using cocotb to write testbenches in Python, coroutine-based stimulus, and why scripted verification scales better than pure SV |
+| [3.05 – Driving & Sampling DUTs](./3.05-Driving_Sampling_DUTs/README.md) | Interface-level verification | Cleanly separating stimulus generation from response checking, and building reusable driver/monitor components |
+| [3.06 – Scoreboards & Reference Models](./3.06-Scoreboards_Reference_Models/README.md) | Automated correctness checking | Building a reference model of expected behavior and a scoreboard that compares DUT output against it automatically |
+| [3.07 – Functional & Code Coverage](./3.07-Functional_Code_Coverage/README.md) | Measuring thoroughness | Defining coverage groups, tracking which scenarios were exercised, and knowing when your testbench is actually done |
+| [3.08 – Randomized Testing](./3.08-Randomized_Testing/README.md) | Constrained-random stimulus | Generating inputs you wouldn't think to write by hand, specifically targeting boundary conditions and rare states |
+| [3.09 – Formal Verification Intro](./3.09-Formal_Verification_Intro/README.md) | Proving correctness mathematically | Bounded model checking with SymbiYosys — finding bugs that simulation can't, and understanding where formal fits in the flow |
+| [3.10 – UART Verification Capstone](./3.10-UART_Verification/README.md) | Full verification environment | Applying every technique from this chapter to the UART controller you built in Chapter 2, from directed tests to a complete cocotb environment with coverage closure |
 
-From there we introduce **SystemVerilog Assertions (3.03)** — a way to embed correctness properties directly into your design or testbench so the simulator checks them automatically on every cycle. SVAs let you express things like "the start bit must always be followed by exactly 8 data bits" as a formal statement rather than a manual check.
-
-We then cover **adversarial and constrained-random testing (3.05–3.08)** — techniques for generating inputs you wouldn't think to write by hand, specifically designed to find bugs at the boundaries of your design's behavior.
-
-Finally, we introduce **cocotb (3.04)** and build toward **UVM concepts** — industry-standard frameworks for structured, reusable, scalable verification environments. By the end of the chapter, you'll understand why teams at Intel, AMD, and Apple use these methodologies and how they're structured.
-
-Each technique is a response to a real limitation of the one before it. By the time you're writing constrained-random tests in cocotb, you'll understand exactly why each layer of the stack exists.
+The chapters are ordered deliberately. You won't be asked to use a tool before you understand why it exists.
 
 ---
 
