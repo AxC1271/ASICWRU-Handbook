@@ -4,9 +4,13 @@ Welcome to the ASICWRU Handbook — a free, openly written reference for anyone 
 
 Hardware design has a reputation for being inaccessible. Expensive textbooks, paywalled courses, knowledge locked inside companies. That reputation isn't entirely wrong — but it doesn't have to stay that way. Everything here is something I wish had been written down clearly when I was learning it. If you're a CWRU student, a CWRU CHIPS club member, or just someone on the internet curious about how chips actually work — this is for you.
 
+> **A note on how this was made:** This repository was developed with the assistance of AI language models for drafting and structuring content. Every technical claim, explanation, and code example has been reviewed and verified by students with experience in ASIC and RTL design. If you find an error, please open an issue — accuracy matters more than pride of authorship.
+
 ---
 
-> **A note on how this was made:** This repository was developed with the assistance of AI language models for drafting and structuring content. Every technical claim, explanation, and code example has been reviewed and verified by students with experience in ASIC and RTL design. If you find an error, please open an issue — accuracy matters more than pride of authorship.
+## Prerequisites
+
+All we ask is for you to have an integrated development environment to write some code, as well as a curious mind to learn more about the world of computer architecture, digital logic, and RTL design!
 
 ---
 
