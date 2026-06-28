@@ -44,9 +44,9 @@ Fork the repo. Work through the exercises. If something's wrong or unclear, open
 
 **John Paul Magbitang** | B.S.E in ECE @ CWRU
 
-## References
+## Additional References
 
-- **Patterson & Hennessy** — *Computer Organization and Design: RISC-V Edition*. The standard architecture reference. Chapters 1–4 map closely to Ch. 4 of this handbook.
+- **Patterson & Hennessy** — *Computer Organization and Design: RISC-V Edition*. The standard architecture reference.
 - **Weste & Harris** — *CMOS VLSI Design*. The reference for the transistor-level treatment in Ch. 1.
 - **Sutherland, Davidmann & Flake** — *SystemVerilog for Design*. Practical reference for the SV constructs in Ch. 2.
 - **RISC-V International** — [The RISC-V ISA Manual](https://riscv.org/technical/specifications/). The official spec. Ch. 4 covers RV32I.
