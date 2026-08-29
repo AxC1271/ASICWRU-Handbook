@@ -4,6 +4,7 @@
 
 This chapter covers the full digital ASIC implementation flow used by Tiny Tapeout: taking a synthesizable Verilog design and turning it into a GDS file ready for fabrication, using an open-source toolchain (Yosys → OpenROAD → Magic/KLayout) and Tiny Tapeout's GitHub Actions CI.
 
+
 ## What's Covered
 
 | Chapter | Topic | Summary |
@@ -19,6 +20,7 @@ This chapter covers the full digital ASIC implementation flow used by Tiny Tapeo
 | 5.09 – Reading Timing Reports | Judging timing closure | Reading setup/hold slack in OpenSTA reports |
 | 5.10 – Reading Power Reports | Judging power consumption | Breaking down internal, switching, and leakage power |
 
+
 ## Tools Used in This Chapter
 
 | Tool | Purpose |
@@ -32,9 +34,11 @@ This chapter covers the full digital ASIC implementation flow used by Tiny Tapeo
 
 OpenLane scripts the entire pipeline above as one run, with a single configuration file controlling all of it. Knowing which tool does what is still worth having straight, though, since error messages and reports will refer to them individually.
 
+
 ## Tiny Tapeout's CI
 
 When you push your Verilog to your Tiny Tapeout project repo, a GitHub Actions workflow runs OpenLane against the updated info.yaml and source files, driving Yosys and OpenROAD through every stage above, produces a GDS, runs precheck , and uploads the resulting GDS, reports, and layout renders as CI artifacts.
+
 
 ## Prerequisites
 
